@@ -12,10 +12,6 @@ const codes = [
 ];
 
 function init() {
+  let index = 0;
   // your code here
-  const main = document.querySelector('body');
- 
-  main.addEventListener('keydown', function(event) {
-  alert('I was clicked!');
-  });
 }
