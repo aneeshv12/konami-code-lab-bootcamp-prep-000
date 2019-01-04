@@ -25,5 +25,5 @@ function init() {
       index = 0;
     }
   });
-  // your code here
+
 }
