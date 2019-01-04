@@ -18,10 +18,10 @@ function init() {
     if(key === codes[index]){
       index++;
     
-    if(index === alphabet.length){
-      alert("Finished the code!");
-      index = 0;
-    }
+      if(index === alphabet.length){
+        alert("Finished the code!");
+        index = 0;
+      }
     }else{
       index = 0;
     }
