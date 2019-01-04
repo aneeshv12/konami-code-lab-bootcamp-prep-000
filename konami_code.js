@@ -17,13 +17,15 @@ function init() {
     const key = event.key;
     if(key === codes[key]){
       index++;
-    }
+    
     if(index === alphabet.length){
       alert("Finished the code!");
       index = 0;
+    }
     }else{
       index = 0;
     }
+    
   });
 
 }
