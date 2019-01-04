@@ -13,5 +13,6 @@ const codes = [
 
 function init() {
   let index = 0;
+  document.body.
   // your code here
 }
